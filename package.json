@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "watch jasmine"
+    "test": "node node_modules\\jasmine\\bin\\jasmine.js",
+    "test:watch": "watch jasmine"
   },
   "author": "",
   "license": "ISC",
